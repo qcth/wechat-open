@@ -1,5 +1,5 @@
 {
-    "name": "qcth/open",
+    "name": "qcth/wechat-open",
     "description": "this is weixin plug-in",
     "authors": [
         {
@@ -9,12 +9,8 @@
     ],
     "require": {},
     "autoload": {
-        "files": [
-            "index.php"
-        ],
         "psr-4":{
-            "qcth\\open\\plug\\":"plug/",
-            "qcth\\open\\plug_trait\\":"plug_trait/"
+            "qcth\\wechat_open\\":"src/"
         }
     }
 }
