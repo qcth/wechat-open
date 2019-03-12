@@ -1,0 +1,20 @@
+{
+    "name": "qcth/open",
+    "description": "this is weixin plug-in",
+    "authors": [
+        {
+            "name": "qcth",
+            "email": "qcth@foxmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "index.php"
+        ],
+        "psr-4":{
+            "qcth\\open\\plug\\":"plug/",
+            "qcth\\open\\plug_trait\\":"plug_trait/"
+        }
+    }
+}
